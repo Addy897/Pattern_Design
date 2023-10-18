@@ -1,8 +1,11 @@
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
+    int num;
+    printf("Enter Number of rows: ");
+    scanf("%d",&num);
     int x = 96;
-    int num=18;
+    
     for(int i=1;i<=num;i++){
         for(int j=1;j<=(num*2-i*2);j++)
 	        printf("-");
